@@ -1,0 +1,29 @@
+body{padding-top:72px}.hero{background:#f8f9fa;padding:70px 0}.card-product img{object-fit:cover;height:160px}footer{background:#212529;color:#fff}footer a{color:#adb5bd;text-decoration:none}footer a:hover{color:#fff}
+
+/*bottone "Cerca prodotti" */
+.btn-pink {
+  background-color: #d51552; 
+  border-color: #d51552;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: trasparent; /* un po' più chiaro al passaggio */
+  border-color: #d51552;
+  color: #d51552
+}
+
+
+/*bottone "Dettagli" */
+.btn-outline-pink {
+  color: #d51552;            /* testo rosa */
+  border: 1px solid #d51552; /* bordo rosa */
+  background-color: transparent; /* sfondo trasparente */
+}
+
+.btn-outline-pink:hover {
+  background-color: #d51552; /* quando ci passi sopra diventa rosa */
+  color: white;              /* e il testo diventa bianco */
+}
+
+

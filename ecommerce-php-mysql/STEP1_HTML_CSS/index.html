@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SereCosmetics❀</title>
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <style>
+    body { padding-top: 72px; }
+    .card-product img { object-fit: cover; height: 160px; }
+
+    
+    .nav-link.emoji-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      background-color: rgba(128, 128, 128, 0.2); /* cerchio grigio trasparente */
+      color: black;
+      transition: background-color 0.2s ease-in-out;
+      margin: 0 10px;
+    }
+    .nav-link.emoji-icon:hover {
+      background-color: rgba(128, 128, 128, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">SereCosmetics❀</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link emoji-icon" href="index.html" title="Home">🏠</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link emoji-icon" href="login.html" title="Login">👤</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link emoji-icon" href="carrello.html" title="Carrello">🛒</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link emoji-icon" href="cronologia-ordini.html" title="Ordini">📦</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<main>
+<section class="hero text-center" style="padding-top: 90px;">
+  <div class="container">
+    <h1 class="display-5">SereCosmetics❀</h1>
+    <p class="lead">Make-up - Bellezza</p>
+
+    <!-- Barra di ricerca -->
+    <form action="ricerca.html" method="get" class="row justify-content-center g-2 mt-3">
+      <div class="col-md-6">
+        <input type="text" name="q" class="form-control" placeholder="Cerca un prodotto..." required>
+      </div>
+      <div class="col-md-2 d-grid">
+        <button type="submit" class="btn btn-pink">Cerca</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Sezione New Collection -->
+<section class="container my-5">
+  <h2 class="h4 mb-3">New Collection</h2>
+  <div class="row g-3">
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere1.jpg" class="card-img-top" alt="Lip Gloss" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Lip Gloss</h3><p class="text-muted">€ 19,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto1.html">Dettagli</a></div>
+    </div></div>
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere2.jpg" class="card-img-top" alt="Mascara" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Mascara</h3><p class="text-muted">€ 29,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto2.html">Dettagli</a></div>
+    </div></div>
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere3.jpg" class="card-img-top" alt="Fondotinta" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Fondotinta</h3><p class="text-muted">€ 49,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto3.html">Dettagli</a></div>
+    </div></div>
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere4.jpg" class="card-img-top" alt="Blush liquido" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Blush liquido</h3><p class="text-muted">€ 25,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto4.html">Dettagli</a></div>
+    </div></div>
+  </div>
+</section>
+
+<!-- Sezione I più venduti -->
+<section class="container my-5">
+  <h2 class="h4 mb-3">I più venduti</h2>
+  <div class="row g-3">
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere5.jpg" class="card-img-top" alt="Matita sopracciglia" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Matita sopracciglia</h3><p class="text-muted">€ 13,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto5.html">Dettagli</a></div>
+    </div></div>
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere6.jpg" class="card-img-top" alt="Gel sopracciglia" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Gel sopracciglia</h3><p class="text-muted">€ 12,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto6.html">Dettagli</a></div>
+    </div></div>
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere7.jpg" class="card-img-top" alt="Palette occhi" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Palette occhi</h3><p class="text-muted">€ 59,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto7.html">Dettagli</a></div>
+    </div></div>
+    <div class="col-md-3"><div class="card card-product">
+      <img src="assets/img/sere8.jpg" class="card-img-top" alt="Illuminante" loading="lazy" width="400" height="300">
+      <div class="card-body"><h3 class="h6">Illuminante</h3><p class="text-muted">€ 29,90</p><a class="btn btn-outline-pink btn-sm" href="prodotto8.html">Dettagli</a></div>
+    </div></div>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="mt-5 py-4">
+  <section class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h3 class="h6 text-uppercase text-muted mb-2">Help</h3>
+        <p class="mb-1">FAQ</p>
+        <p class="mb-1">Metodi di pagamento accettati</p>
+        <p class="mb-1">Contattaci</p>
+        <p class="mb-0">*Condizioni delle nostre offerte</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="h6 text-uppercase text-muted mb-2">A proposito di SereCosmetics❀</h3>
+        <p class="mb-1">Lavora con noi</p>
+        <p class="mb-1">Programma fedeltà SereCosmetics❀</p>
+        <p class="mb-0">Costi e tempi di spedizione</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="h6 text-uppercase text-muted mb-2">Seguici</h3>
+        <p class="mb-0">
+          Instagram: @serecosmetics<br>
+          Facebook: /serecosmetics
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="container d-flex justify-content-between flex-wrap gap-3">
+    <div>© 2025 SereCosmetics❀</div>
+  </div>
+</footer>
